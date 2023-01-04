@@ -1,0 +1,33 @@
+O que aprendi nesta aula
+
+1 - String é um tipo de dado primitivo em python
+
+2 - Abreviação se String é str
+
+3 - O python sabe, que textos/palavras entre '' e "" são strings
+
+4 - Números fora de aspas são INTEIROS, e serão printados como inteiros
+- print(12345)
+
+5 - Números dentro de aspas são STRINGS, e serão printados como strings
+- print('12345')
+
+6 - O texto pode ser escrito com o parametro de aspas simples ou duplas
+- print('Isso é um texto de umas aspa simples')
+- print("Isso é um texto de umas aspa duplas")
+
+7 - Aprendi que se o parametro é iniciado com aspas simples, não posso mais utiliza-lá como parte da string
+Obs: o mesmo funciona para aspas duplas
+
+8 - Aprendi que um modo de utilizarmos as aspas do parâmetro no texto é inserindo (barras) \ antes das aspas:
+- print('Isso é um \'texto\'')
+printará: Isso é um 'texto'
+
+- print("Isso tbm é um \"texto\"")
+printará: Isso tbm é um "texto"
+
+
+9 - Aprendi sobre a quebra de linha do texto
+- print('Isso é um texto com \n quebra de linha')
+Printará: Isso é um texto com
+            quebra de linha

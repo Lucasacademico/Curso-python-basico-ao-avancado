@@ -1,0 +1,35 @@
+O que aprendemos nesta aula?
+
+1 - Aprendemos sobre os principais operadores aritméticos, e como utilizar no python
+- operador de soma (+)
+- operador de subtração (-)
+- operador de multiplicação (*)
+- Operador de divisão (/)
+- operador de divisão inteira (//)
+- operador de exponenciação (**)
+- operador de resto de divisão (%)
+- operação com parenteses ()
+
+
+
+2 - Realizar operaçoes com strings, e como o código se comporta em cada caso
+ex:
+    print(3 * 'Lucas')
+      printa: LucasLucasLucas, pois irá repetir 3 vezes a String (de acordo com o multiplicador)
+
+    print('20' + '30')
+      printa: 2030, pois o + irá concatenar entre 20 e 30 (concatenar = juntar)
+
+    print('5+2*10 Sem parenteses', 5+2*10)
+      printa: 25
+
+    print('(5+2)*10 Com parenteses', (5+2)*10)
+      printa 70
+
+
+
+3 - Aprendemos que soma entre inteiro e string não funciona, pois o código enxerga isso como algo ilógico.
+
+ex:
+    print(5 + '5') - irá ocorre um erro, pois não soma nem concatena entre strings e inteiros
+'''

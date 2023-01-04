@@ -1,0 +1,46 @@
+Aprendemos a printar dados na tela
+
+1 - Printando número
+- print(123456)
+Printará: 123456
+
+2 - Printando palavras
+- print('Lucas')
+Printará: Lucas
+
+3 - Printando texto em um unico argumento:
+- print('isto é um texto dentro de um unico argumento')
+Printará: isto é um texto dentro de um unico argumento
+
+4 - Printando palavras/textos em argumentos diferentes:
+- print('Lucas', 'da', 'Rocha', 'Andrade')
+Printará: Lucas da Rocha Andrade
+
+5 - Inserindo separadores - sep='' :
+- print('Lucas', 'da', 'Rocha', 'Andrade', sep='-')
+Printará: Lucas-da-Rocha-Andrade
+
+6 - Inserindo simbolos (ou qualquer coisa) ao final do argumento:
+- print('Lucas', 'da', 'Rocha', 'Andrade', sep='-', end='###'
+printará: Lucas-da-Rocha-Andrade###
+
+7 - Aprendemos também que se inserirmos um end sem atributo, end='', irá tirar o espaço para o próxima linha de print
+
+Ex do código com end COM atributo:
+print('Lucas', 'da', 'Rocha', 'Andrade', sep='-', end='xxx')
+print('Nagila')
+- Printará:
+            Lucas-da-Rocha-Andradexxx
+            Nagila
+
+Ex do código com end SEM atributo:
+print('Lucas', 'da', 'Rocha', 'Andrade', sep='-', end='')
+print('Nagila')
+- Printará:
+            Lucas-da-Rocha-AndradeNagila
+
+8 - E por ultimo, que o python é Case Sensitive:
+- print() com p minusculo é o correto
+- Print() com P maiusculo é incorreto, e não irá funcionar
+
+

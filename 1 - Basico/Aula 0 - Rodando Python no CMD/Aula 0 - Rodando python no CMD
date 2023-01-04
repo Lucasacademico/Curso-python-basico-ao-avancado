@@ -1,0 +1,47 @@
+Como executar o python sem Pycham e com editores de texto:
+
+1 - Crie uma pasta onde irá ficar o projeto do python:
+ex: Pasta 'Python' no HD
+
+2 - Na pasta 'Python' criada, crie outra pasta com o nome do projeto:
+ex: pasta 'Projeto' no endereço C:\Python
+
+3 - Copiar o caminho da pasta (endereço):
+ex: Após copiar, quando colar irá aparecer neste formato: C:Python\Novo
+
+4 - Abrir o prompt de comando:
+- Digitar: " cd C:Python\Novo "
+- apertar enter para entrarmos na pasta.
+- criar ambiente virtual dentro da pasta: " python -m venv env "
+obs: após criado ambiente virtual, irá ser alocado diversos arquivos na pasta do
+projeto.
+
+5 - Ativando o ambiente virtual para uso:
+- Entrar na pasta "env", buscar a pasta "scripts", e lá existe um arquivo chamado
+"activate.bat", onde iremos ativar no cmd (dentro da pasta "Novo):
+- Digitar: env\Scripts\activate.bat
+obs: Digitar exatamente o nome das pastas e arquivos igualmente.
+
+Após ativar o ambiente virtual, o CMD ficará da seguinte maneira:
+- (env) C:\Python\Novo
+
+6 - Instalando um pacote
+- Na pasta ..env\Lib\site-Packages irá mostrar todos os pacotes que já vieram com
+o ambiente
+- para instalar um novo pacote no CMD, digitar: pip install pymysql
+obs: após teclar enter, o pacote pymysql será criado.
+
+7 - Rodando scripts
+- Abrir um editor de texto, e digitar um código: print('hello world!')
+- Salvar esse arquivo na pasta Python\Novo, com o nome de "nomedoraqurivo.py"
+- para executar no cmd:
+L Dentro do ambiente: (env) C:\Python\Novo\
+L Digitar: python nomedoarquivo.py
+enter
+- Irá aparecer o script que criei: Hello World !
+
+8 - Desativando o ambiente virtual
+L Dentro do ambiente: (env) C:\Python\Novo\
+L Digitar: deactivate
+
+
