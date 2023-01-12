@@ -10,19 +10,20 @@ Aula 10 - Operadores relacionais + condicionais Parte 1
 
 #  Diferença entre = e ==
 
-variavel = 'valor'
-#  Neste caso estou AFIRMANDO que o variavel é igual a 'valor'
-print(variavel == 'valor')
+x = 'valor'
+#  Neste caso estou atribuindo que o x recebe 'valor'
+print(x == 'valor')
 #  print: True
-#  Neste caso estou PERGUNTANDO se variavel é igual a 'valor'
+#  Neste caso estou PERGUNTANDO se variavel x é igual a 'valor'
 #  A expressão acima se torna verdadeira, pois antes dela, atribuimos que variavel = 'valor'
 
 print(2 == 2)
 #  Print: True
 #  Na expressão acima 2 é de fato igual a 2, logo é uma expressão verdadeira
+
 print(2 == 1)
 #  Print: False
-#  Na expressão acima logicamente 2 NÃO é igual a 1, logo a expressão é falsa
+#  Na expressão acima logicamente 2 NÃO é igual a 1, logo a expressão retorna false
 
 
 num_1 = 2
@@ -38,8 +39,7 @@ val_2 = 2
 expressao = (val_1 == val_2)
 print(expressao)
 #  Printa: True
-#  Neste exemplo acima atribuimos a variavel 'expressao' recebe o retorno da pergunta lógica...
-#  ...de igualdade (que neste caso é verdadeiro)
+#  Neste exemplo acima atribuimos a variavel 'expressao' recebe o retorno da pergunta lógica de igualdade (que neste caso é verdadeiro)
 
 val_1 = 2
 val_2 = 2
@@ -61,19 +61,18 @@ print(expressao)
 
 #  Usando Strings
 
-exp_1 = 'Lucas'
-exp_2 = 'Andrade'
+exp_1 = 'João'
+exp_2 = 'Maria'
 retorno = (exp_1 == exp_2)
 print(retorno)
 #  Printa: False
 
-exp_1 = 'Lucas'
-exp_2 = 'Andrade'
+exp_1 = 'João'
+exp_2 = 'Maria'
 retorno = (exp_1 != exp_2)
 print(retorno)
 #  Printa: True
 
 
-#  IMPORTANTE: Se rodarmos este código, a tela retorna a afirmação de VERDADEIRO ou FALSO dependendo...
-#  ... da expressão, pois isto é uma pergunta ao sistema.
+#  IMPORTANTE: Se rodarmos este código, a tela retorna a afirmação de VERDADEIRO ou FALSO dependendo da expressão, pois isto é uma pergunta ao sistema.
 
