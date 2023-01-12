@@ -38,18 +38,22 @@ print(3 * 'Lucas')
 #  printa: LucasLucasLucas, pois irá repetir 3 vezes a String (de acordo com o multiplicador)
 
 print('20' + '30')
-#  printa: 2030, pois o + irá concatenar entre 20 e 30 (concatenar = juntar)
+#  printa: 2030, pois o + irá concatenar entre 20 e 30.
+#  Concatenar, de maneira informal, significa 'juntar'
 
 print('5+2*10 Sem parenteses', 5+2*10)
-#  printa: 25
+#  printa: 5+2*10 Sem parenteses 25
+
 print('(5+2)*10 Com parenteses', (5+2)*10)
-#  printa 70
+#  printa (5+2)*10 Com parentese 70
 
 
 '''
-Situações ilógicas:
+Observação
 
-1 - Soma entre Inteiro e String
-ex:
-    print(5 + '5') - irá ocorre um erro, pois não soma nem concatena entre strings e inteiros
+Soma entre Inteiro e String
+    ex:
+        print(5 + '5') - irá ocorre um erro, pois não soma nem concatena entre strings e inteiros
+        
+Logo, deve haver logica nas operações
 '''
