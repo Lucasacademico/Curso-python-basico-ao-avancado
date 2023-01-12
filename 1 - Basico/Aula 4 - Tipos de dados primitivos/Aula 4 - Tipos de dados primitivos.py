@@ -4,10 +4,10 @@ Tipos de dados:
     ex: "isto é uma string", 'isso tbm é uma string'
 
 - int: inteiro
-    ex: 123456, 10, 5000.....
+    ex: 123456, -10, 5000.....
 
 - float: real/ponto flutuante
-    ex: -23  244.23  -33.55  0.0
+    ex: -23.05  244.23  -33.55  0.01
 
 - bool: booleano/lógico
     ex: false or true
@@ -21,7 +21,7 @@ print('Lucas', type('Lucas'))
 #  printará: Lucas <class 'str'>, que é o tipo de dado string do nome Lucas
 
 print('1234', type('1234'))
-#  printará: 1234 <class 'str'>, que é o tipo de dado STRING pois o número esta em formato string
+#  printará: 1234 <class 'str'>, que é o tipo de dado STRING pois o valor esta em formato string
 
 print(1234, type(1234))
 #  printará: 1234 <class 'int'>, que é o tipo de dado INT do numero 1234
@@ -51,5 +51,4 @@ print('10', type('10'), type(int('10')))
 #  printa: 10 <class 'str'> <class 'int'>
 
 #  Importante: não é possível a utilização do type cashing em todos os tipos, o exemplo disso é que podemos alterar...
-#  ... um numero do formtato string em inteiro, mas não podemos transformar uma palavra string em inteiro, pois não...
-#  ... é lógico.
+#  ... um numero do formtato string em inteiro, mas não podemos transformar uma palavra string em inteiro, pois não é lógico.
