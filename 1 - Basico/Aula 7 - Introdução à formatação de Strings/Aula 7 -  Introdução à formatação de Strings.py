@@ -4,38 +4,37 @@ Introdução à formatação de Strings
 
 Anteriormente aprendemos que para podemos inserir variaveis e textos em uma mesma função para mostrar
 um texto com as informações contidas das variaveis.
-    ex:
-
 '''
 
 nome = 'Lucas Andrade'
 idade = 28
-altura = 1.79
-peso = 120
+altura = 1.80
+peso = 91
 imc = peso/(altura ** 2)
 
 #  Maneira não-convencional de printar variaveis com strings em um texto
 print(nome, 'tem', idade, 'anos de idade e seu IMC é', imc)
-    #  printa: Lucas Andrade tem 28 anos de idade e seu IMC é 37.452014606285694
+    #  printa: Lucas Andrade tem 28 anos de idade e seu IMC é 28.086419753086417
 
-#  Maneira convencional e correta de printar variaveis com strings em um texto
+#  Maneira convencional e correta de printar variaveis com strings em um texto utilizando f''
 print(f'{nome} tem {idade} anos de idade e seu IMC é {imc:.2f}')
-    #  printa: Lucas Andrade tem 28 anos de idade e seu IMC é 37.45
+    #  printa: Lucas Andrade tem 28 anos de idade e seu IMC é 28.08
 
+# Metodo format
 print('{} tem {} anos de idade e seu IMC é {}'.format(nome, idade, imc))
-    #  printa: Lucas Andrade tem 28 anos de idade e seu IMC é 37.45
+    #  printa: Lucas Andrade tem 28 anos de idade e seu IMC é 28.086419753086417
     #  OBS: para formatar o float do IMC, devemos inserir a função de formatação dentro da chave do imc
 
-print('{0} tem {1} anos de idade e seu IMC é {2}'.format(nome, idade, imc))
-    #  printa: Lucas Andrade tem 28 anos de idade e seu IMC é 37.45
-    #  Atribução de numeros conforme variavel (deve seguir esta ordem)
+print('{0} tem {1} anos de idade e seu IMC é {:.2f}'.format(nome, idade, imc))
+    #  printa: Lucas Andrade tem 28 anos de idade e seu IMC é 28.08
+    #  Atribução de numeros conforme variavel (deve seguir a ordem das variaveis format)
 
-print('{0} {0} tem {1} {1} anos de idade e seu IMC é {2} {1}'.format(nome, idade, imc))
-    #  printa: Lucas Andrade Lucas Andrade tem 28 28 anos de idade e seu IMC é 37.452014606285694 28
+print('{0} {0} tem {1} {1} anos de idade e seu IMC é {2}'.format(nome, idade, imc))
+    #  printa: Lucas Andrade Lucas Andrade tem 28 28 anos de idade e seu IMC é 28.086419753086417
     #  reutiliza os dados das Variaveis, bastando repetir a chave com o numero dentro
 
-print('{n} tem {i} anos de idade e seu IMC é {im}'.format(n=nome, i=idade, im=imc))
-    #  printa: Lucas Andrade tem 28 anos de idade e seu IMC é 37.45
+print('{n} tem {i} anos de idade e seu IMC é {im:.2f}'.format(n=nome, i=idade, im=imc))
+    #  printa: Lucas Andrade tem 28 anos de idade e seu IMC é 28.08
     #  neste exemplo atribuimos parametros nas variaveis, para invocarmos as infos das var's utilizando....
     #  ... os parametros atribuidos.
 
@@ -76,15 +75,15 @@ ex:
 2.1 - podemos ir mais alem na função .format, atribuindo parametros nas variaveis.
 ex:
     print('{n} tem {i} anos de idade e seu IMC é {imc}'.format(n=nome, i=idade, im=imc))
-      printa: Lucas Andrade tem 28 anos de idade e seu IMC é 37.45
+      printa: Lucas Andrade tem 28 anos de idade e seu IMC é 28.08
       neste exemplo atribuimos parametros nas variaveis, para invocarmos as infos das var's utilizando....
       ... os parametros atribuidos.
             
 3 - Outro ponto, é a formatação da varivel IMC, que podemos reduzir a quantidade de numeros após a virgula,
 (obviamente) o numero precisa ser do tipo float, e basta que insiramos uma pequena função de formatação
 ex: 
-        Variavel IMC = 37.452014606285694
-        Variavel IMC:.2f = 37.45
+        Variavel IMC = 28.086419753086417
+        Variavel IMC:.2f = 28.08
     Conforme o exemplo acima, estou dizendo para variavel que ela deve mostrar somente duas casas decimais 
     após a virgula.
 '''
