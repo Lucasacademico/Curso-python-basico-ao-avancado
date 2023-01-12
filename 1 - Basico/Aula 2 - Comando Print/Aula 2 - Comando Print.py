@@ -28,11 +28,10 @@ print('Lucas', 'Andrade', sep='-', end='######')
 
 '''
 Observações importantes da Aula:
-1 - O python diferencia letras maisculas de minusculas, logo:
+O python diferencia letras maisculas de minusculas, logo:
     print() é o correto
     Print() com P maiusculo é incorreto, e não irá funcionar
-    
-2 - 
+  
 '''
 
 
