@@ -7,11 +7,11 @@ minusculas
 '''
 
 #  Atribuição de valores nas variaveis
-nome = 'Lucas'
+nome = 'João'
 idade = 28
-altura = 1.79
+altura = 1.80
 e_maior = idade > 18
-peso = 120
+peso = 91
 
 
 #  Exemplo de uso básico
@@ -20,12 +20,7 @@ print(nome)
 #  print(nome) - irá printar o nome 'Lucas' que foi atribuido na variavel 'nome'
 
 print(nome, type(nome))
-#  Podemos também verificar o tipo da variavel com função 'type()'
-
-
-#  pula linha
-print()
-
+#  Podemos também verificar e imprimir o tipo da variavel com função 'type()'
 
 #  Exempo de uso comum
 print('Nome:', nome)
@@ -34,9 +29,6 @@ print('Altura:', altura)
 print('É maior:', e_maior)
 print('Peso:', peso)
 
-#  pula linha
-print()
-
-#  Operações entre variaveis
+#  Operações entre variaveis (seguindo a logica que o valor inteiro da idade pode ser multiplicada pelo valor float da altura).
 print(idade * altura)
 
