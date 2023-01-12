@@ -5,25 +5,26 @@ print(12345)
 
 #  Print de Strings
 #  No exemplo abaixo, as virgulas separam argumentos dentro da função print
-print('Lucas', 'Rocha', 'Andrade')
+print('Joao', 'Maria', 'Silva')
 
 #  No exemplo abaixo um texto pode ser inserido dentro de um unico argumento da função print
 print('Isto é um texto exemplo')
 
 #  No exemplo abaixo o print possui uma função separadora, que serve para separar os argumentos conforme o descrito..
 #  ... dentro da função sep=''
-#  exemplo1: sep='-', ira printar Lucas-Andrade
-#  exemplo2: sep='x', irá printar LucasxAndrade
+#  exemplo1: sep='-', ira printar Joao-Maria
+#  exemplo2: sep='x', irá printar JoaoxMaria
 #  Obs: O separador irá funcionar entre TODOS os argumentos dentro do print
-print('Lucas', 'Andrade', sep='-')
+print('Joao', 'Maria', sep='-')
 
-#  No exemplo abaixo, a função end='', serve para inserir algum simbolo, ou qualquer coisa no final dos argumentos...
+#  No exemplo abaixo, a função end='x', serve para inserir algum simbolo, ou qualquer coisa no final dos argumentos...
 #  ... dentro do print.
-#  No código abaixo, será printado na tela a seguinte informação: Nagila-Simonex
-print('Nagila', 'Simone', sep='-', end='')
-print('Lucas', 'Andrade', sep='-', end='######')
+#  No código abaixo, será printado na tela a seguinte informação:Pedro-Joséx
+print('Pedro', 'José', sep='-', end='x')
+
+print('João', 'Maria', sep='-', end='######')
 #  OBS: Se por acaso, no print anterior inserirmos um end sem nenhuma atribuição, end='', o código irá se juntar com
-#  ... o código seguinte, pois o end sem atribuição retira espaço entre os print
+#  ... um código seguinte (se houver), pois o end sem atribuição retira espaço entre os print
 
 
 '''
